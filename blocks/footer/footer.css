@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  margin: 92px auto 0 auto;
+  padding: 0 0 24px 0;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 699px) {
+  .footer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    margin: 64px auto 0 16px;
+  }
+}

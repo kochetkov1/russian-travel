@@ -1,0 +1,16 @@
+.place {
+  display: grid;
+  grid-template-columns: minmax(320px, 484px) minmax(320px, 484px);
+  grid-template-rows: auto;
+  gap: 0 40px;
+
+  margin: 80px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: minmax(320px, 484px);
+    margin: 50px 0 0 0;
+  }
+}

@@ -1,5 +1,5 @@
 .footer__links {
-    list-style: none;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,9 +8,8 @@
     padding: 0;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 767px) {
     .footer__links {
-      display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
       row-gap: 32px;

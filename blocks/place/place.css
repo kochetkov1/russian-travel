@@ -8,6 +8,26 @@
   padding: 0;
 }
 
+.place:first-of-type {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    gap: 0 32px;
+
+    margin: 80px 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    gap: 0 28px;
+
+    margin: 50px 24px 0 24px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .place {
     grid-template-columns: minmax(320px, 484px);

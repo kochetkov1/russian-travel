@@ -6,3 +6,27 @@
   max-width: 984px;
   margin: 0 auto 0 auto;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    max-width: 425px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .lead {
+    max-width: 320px;
+  }
+}
